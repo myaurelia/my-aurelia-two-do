@@ -16,7 +16,7 @@ describe('my-app', () => {
     await au.start().wait();
 
     const text =  node.textContent;
-    expect(text.trim()).toBe('Hello World!');
+    expect(text.trim()).toBe('Hello, Aurelia!');
     await au.stop().wait();
   });
 });
